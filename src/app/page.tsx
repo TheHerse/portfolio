@@ -161,97 +161,97 @@ export default function Home() {
         </div>
       </section>
 
-{/* PRICING */}
-<section className="relative z-10 px-6 py-20 max-w-6xl mx-auto">
-  <div className="flex items-center gap-4 mb-12">
-    <h2 className="text-2xl font-bold text-white">Investment</h2>
-    <div className="flex-1 h-px bg-white/10" />
-  </div>
-  
-  <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-    
-    {/* Essential */}
-    <div className="bg-white/5 border border-white/10 rounded-xl p-8">
-      <div className="mb-6">
-        <h3 className="text-lg font-semibold text-white mb-2">Essential</h3>
-        <div className="text-4xl font-bold text-white">$800</div>
-      </div>
-      <ul className="space-y-3 mb-6">
-        {['Up to 5 pages', 'Mobile responsive', 'Contact form', '2 revision rounds', 'Basic SEO', '2 weeks bug support'].map(feature => (
-          <li key={feature} className="flex items-center gap-3 text-slate-400 text-sm">
-            <span className="text-cyan-400">✓</span>
-            {feature}
-          </li>
-        ))}
-      </ul>
-      <div className="text-xs text-slate-500 mb-4 text-center">50% to start, 50% on launch</div>
-      
-      {/* Two buttons */}
-      <div className="space-y-2">
-        <a 
-          href="mailto:dev@hersonhernandez.com?subject=Essential Package Inquiry"
-          className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
-        >
-          Email me
-        </a>
-        <a 
-          href="https://calendly.com/hersonhernandez/15-minute-meeting"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-center border border-white/20 text-white py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
-        >
-          Book a call
-        </a>
-      </div>
-    </div>
+      {/* PRICING */}
+      <section className="relative z-10 px-6 py-20 max-w-6xl mx-auto">
+        <div className="flex items-center gap-4 mb-12">
+          <h2 className="text-2xl font-bold text-white">Investment</h2>
+          <div className="flex-1 h-px bg-white/10" />
+        </div>
+        
+        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          
+          {/* Essential */}
+          <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold text-white mb-2">Essential</h3>
+              <div className="text-4xl font-bold text-white">$800</div>
+            </div>
+            <ul className="space-y-3 mb-6">
+              {['Up to 5 pages', 'Mobile responsive', 'Contact form', '2 revision rounds', 'Basic SEO', '2 weeks bug support'].map(feature => (
+                <li key={feature} className="flex items-center gap-3 text-slate-400 text-sm">
+                  <span className="text-cyan-400">✓</span>
+                  {feature}
+                </li>
+              ))}
+            </ul>
+            <div className="text-xs text-slate-500 mb-4 text-center">50% to start, 50% on launch</div>
+            
+            {/* Two buttons */}
+            <div className="space-y-2">
+              <a 
+                href="mailto:dev@hersonhernandez.com?subject=Essential Package Inquiry"
+                className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
+              >
+                Email me
+              </a>
+              <a 
+                href="https://calendly.com/hersonhernandez/15-minute-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border border-white/20 text-white py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
+              >
+                Book a call
+              </a>
+            </div>
+          </div>
 
-    {/* Business */}
-    <div className="bg-white/5 border border-cyan-500/30 rounded-xl p-8 relative overflow-hidden">
-      <div className="absolute top-0 right-0 bg-cyan-500 text-black text-xs font-bold px-3 py-1 rounded-bl-lg">
-        POPULAR
-      </div>
-      <div className="mb-6">
-        <h3 className="text-lg font-semibold text-white mb-2">Business</h3>
-        <div className="text-4xl font-bold text-white">$1,500</div>
-      </div>
-      <ul className="space-y-3 mb-6">
-        {['Everything in Essential', 'Up to 10 pages', 'Booking/appointment system', '5 revision rounds', 'Performance optimized', '1 month bug support'].map(feature => (
-          <li key={feature} className="flex items-center gap-3 text-slate-400 text-sm">
-            <span className="text-cyan-400">✓</span>
-            {feature}
-          </li>
-        ))}
-      </ul>
-      <div className="text-xs text-slate-500 mb-4 text-center">50% to start, 50% on launch</div>
-      
-      {/* Two buttons */}
-      <div className="space-y-2">
-        <a 
-          href="mailto:dev@hersonhernandez.com?subject=Business Package Inquiry"
-          className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
-        >
-          Email me
-        </a>
-        <a 
-          href="https://calendly.com/hersonhernandez/15-minute-meeting"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-center border border-white/20 text-white py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
-        >
-          Book a call
-        </a>
-      </div>
-    </div>
+          {/* Business */}
+          <div className="bg-white/5 border border-cyan-500/30 rounded-xl p-8 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-cyan-500 text-black text-xs font-bold px-3 py-1 rounded-bl-lg">
+              POPULAR
+            </div>
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold text-white mb-2">Business</h3>
+              <div className="text-4xl font-bold text-white">$1,500</div>
+            </div>
+            <ul className="space-y-3 mb-6">
+              {['Everything in Essential', 'Up to 10 pages', 'Booking/appointment system', '5 revision rounds', 'Performance optimized', '1 month bug support'].map(feature => (
+                <li key={feature} className="flex items-center gap-3 text-slate-400 text-sm">
+                  <span className="text-cyan-400">✓</span>
+                  {feature}
+                </li>
+              ))}
+            </ul>
+            <div className="text-xs text-slate-500 mb-4 text-center">50% to start, 50% on launch</div>
+            
+            {/* Two buttons */}
+            <div className="space-y-2">
+              <a 
+                href="mailto:dev@hersonhernandez.com?subject=Business Package Inquiry"
+                className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
+              >
+                Email me
+              </a>
+              <a 
+                href="https://calendly.com/hersonhernandez/15-minute-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border border-white/20 text-white py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
+              >
+                Book a call
+              </a>
+            </div>
+          </div>
 
-  </div>
-  
-  {/* Post-support note */}
-  <div className="mt-8 text-center">
-    <p className="text-sm text-slate-500">
-      After support period: Bug fixes $100/hour or flat rate • New features quoted separately
-    </p>
-  </div>
-</section>
+        </div>
+        
+        {/* Post-support note */}
+        <div className="mt-8 text-center">
+          <p className="text-sm text-slate-500">
+            After support period: Bug fixes $100/hour or flat rate • New features quoted separately
+          </p>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="relative z-10 px-6 py-20 text-center">
@@ -283,7 +283,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="relative z-10 px-6 py-8 border-t border-white/5">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-600">
-          <span>© 2024 Herson Hernandez</span>
+          <span>© 2026 Herson Hernandez</span>
           <span>Clarksville, TN</span>
           <span>Built with Next.js & Tailwind</span>
         </div>
