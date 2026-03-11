@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Herson Hernandez | Web Developer in Clarksville, TN",
-  description: "Custom websites for small businesses in Clarksville, TN. Fast, professional web development with no templates or monthly fees. Starting at $800.",
+  description: "Custom websites for small businesses in Clarksville, TN. Fast, professional web development with no templates or monthly fees. Starting at $600.",
   keywords: "web developer, clarksville tn, website design, small business website, freelance web developer",
   authors: [{ name: "Herson Hernandez" }],
   openGraph: {
@@ -56,6 +57,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-V9YBT08XDG"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V9YBT08XDG');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
