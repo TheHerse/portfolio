@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Herson Hernandez | Web Developer in Clarksville, TN",
-  description: "Custom websites for small businesses in Clarksville, TN. Fast, professional web development with no templates or monthly fees. Starting at $600.",
+  title: "Herson Hernandez | Web Developer",
+  description: "Custom websites for small businesses. Fast, professional web development with no templates or monthly fees. Starting at $600.",
   keywords: "web developer, clarksville tn, website design, small business website, freelance web developer",
   authors: [{ name: "Herson Hernandez" }],
   openGraph: {
     title: "Herson Hernandez | Web Developer",
-    description: "Custom websites for small businesses in Clarksville, TN",
+    description: "Custom websites for small businesses",
     url: "https://hersonhernandez.com",
     siteName: "Herson Hernandez",
     locale: "en_US",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Herson Hernandez | Web Developer",
-    description: "Custom websites for small businesses in Clarksville, TN",
+    description: "Custom websites for small businesses",
   },
   robots: {
     index: true,
