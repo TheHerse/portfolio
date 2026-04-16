@@ -22,8 +22,8 @@ export default function Projects() {
             <Image 
               src="/hydro-havens.webp" 
               alt="Hydro Havens Pools and Spas website" 
-              width={400}
-              height={192}
+              fill
+              sizes="(max-width: 768px) 100vw, 33vw"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
