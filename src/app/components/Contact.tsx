@@ -14,7 +14,6 @@ export default function Contact() {
     const form = e.currentTarget;
     const formData = new FormData(form);
     
-    // Client-side submission to Netlify
     await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -47,12 +46,21 @@ export default function Contact() {
         <h2 className="text-2xl font-bold text-white mb-4 text-center">Start your project</h2>
         <p className="text-slate-400 mb-8 text-center">Tell me about your business and what you need.</p>
         
-        {/* Form WITHOUT data-netlify - submission handled client-side */}
         <form 
           name="contact" 
+          method="POST" 
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
           className="space-y-6"
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <p className="hidden">
+            <label>
+              Don't fill this out if you're human: <input name="bot-field" />
+            </label>
+          </p>
+
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Name</label>
             <input 
