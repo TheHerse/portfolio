@@ -233,7 +233,7 @@ function Comparison() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-slate-500",
+                                    className: "space-y-2 text-slate-400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "• Same templates as 1000 other businesses"
@@ -418,8 +418,8 @@ function Projects() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/hydro-havens.webp",
                                         alt: "Hydro Havens Pools and Spas website",
-                                        width: 400,
-                                        height: 192,
+                                        fill: true,
+                                        sizes: "(max-width: 768px) 100vw, 33vw",
                                         className: "w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/portfolio/src/app/components/Projects.tsx",
@@ -717,7 +717,7 @@ function Process() {
                             className: "text-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-3xl font-light text-slate-600 mb-3",
+                                    className: "text-3xl font-light text-slate-500 mb-3",
                                     children: item.step
                                 }, void 0, false, {
                                     fileName: "[project]/portfolio/src/app/components/Process.tsx",
@@ -847,7 +847,7 @@ function Pricing() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-sm text-slate-500",
+                                                className: "text-sm text-slate-400",
                                                 children: "flat rate"
                                             }, void 0, false, {
                                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -984,7 +984,7 @@ function Pricing() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4",
+                                className: "text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4",
                                 children: "50% to start, 50% when live • 1 week delivery"
                             }, void 0, false, {
                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -1068,7 +1068,7 @@ function Pricing() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-sm text-slate-500",
+                                                className: "text-sm text-slate-400",
                                                 children: "flat rate"
                                             }, void 0, false, {
                                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -1202,7 +1202,7 @@ function Pricing() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4",
+                                className: "text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4",
                                 children: "50% to start, 50% when live • 2 revision rounds"
                             }, void 0, false, {
                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -1278,7 +1278,7 @@ function Pricing() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-sm text-slate-500",
+                                                className: "text-sm text-slate-400",
                                                 children: "flat rate"
                                             }, void 0, false, {
                                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -1439,7 +1439,7 @@ function Pricing() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4",
+                                className: "text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4",
                                 children: "50% to start, 50% when live • 3-4 weeks delivery"
                             }, void 0, false, {
                                 fileName: "[project]/portfolio/src/app/components/Pricing.tsx",
@@ -1535,7 +1535,7 @@ function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "relative z-10 px-6 py-8 border-t border-white/5",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-600",
+            className: "max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     children: "© 2026 Herson Hernandez"

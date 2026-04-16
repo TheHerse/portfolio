@@ -20,7 +20,7 @@ export default function Pricing() {
             <p className="text-xs text-slate-400 mb-3">3-page site for small businesses</p>
             <div className="flex items-baseline gap-2">
               <span className="text-3xl font-bold text-white">$600</span>
-              <span className="text-sm text-slate-500">flat rate</span>
+              <span className="text-sm text-slate-400">flat rate</span>
             </div>
           </div>
           
@@ -43,7 +43,7 @@ export default function Pricing() {
             </li>
           </ul>
           
-          <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
+          <div className="text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 1 week delivery
           </div>
           
@@ -75,7 +75,7 @@ export default function Pricing() {
             <p className="text-xs text-slate-400 mb-3">Multi-page site for established businesses</p>
             <div className="flex items-baseline gap-2">
               <span className="text-4xl font-bold text-white">$800</span>
-              <span className="text-sm text-slate-500">flat rate</span>
+              <span className="text-sm text-slate-400">flat rate</span>
             </div>
           </div>
           
@@ -98,7 +98,7 @@ export default function Pricing() {
             </li>
           </ul>
           
-          <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
+          <div className="text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 2 revision rounds
           </div>
           
@@ -127,7 +127,7 @@ export default function Pricing() {
             <p className="text-xs text-slate-400 mb-3">Lead generation + booking systems</p>
             <div className="flex items-baseline gap-2">
               <span className="text-3xl font-bold text-white">$1,500</span>
-              <span className="text-sm text-slate-500">flat rate</span>
+              <span className="text-sm text-slate-400">flat rate</span>
             </div>
           </div>
           
@@ -154,7 +154,7 @@ export default function Pricing() {
             </li>
           </ul>
           
-          <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
+          <div className="text-xs text-slate-400 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 3-4 weeks delivery
           </div>
           

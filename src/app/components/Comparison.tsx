@@ -6,7 +6,7 @@ export default function Comparison() {
         <div className="grid md:grid-cols-2 gap-8 text-sm">
           <div>
             <h3 className="text-slate-400 font-semibold mb-3 uppercase tracking-wider">Generic Site Builders</h3>
-            <ul className="space-y-2 text-slate-500">
+            <ul className="space-y-2 text-slate-400">
               <li>• Same templates as 1000 other businesses</li>
               <li>• Bloated code that loads in 3-5 seconds</li>
               <li>• Monthly fees that add up forever</li>

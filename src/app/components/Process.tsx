@@ -14,7 +14,7 @@ export default function Process() {
         <div className="grid md:grid-cols-4 gap-8">
           {steps.map((item, i) => (
             <div key={i} className="text-center">
-              <div className="text-3xl font-light text-slate-600 mb-3">{item.step}</div>
+              <div className="text-3xl font-light text-slate-500 mb-3">{item.step}</div>
               <h3 className="font-semibold text-white mb-2">{item.title}</h3>
               <p className="text-sm text-slate-400 leading-relaxed">{item.desc}</p>
             </div>

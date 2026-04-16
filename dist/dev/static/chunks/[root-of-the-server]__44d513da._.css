@@ -274,6 +274,7 @@
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     --default-font-family: var(--font-geist-sans);
     --default-mono-font-family: var(--font-geist-mono);
+    --color-background: var(--background);
   }
 
   @supports (color: lab(0% 0 0)) {
@@ -1673,24 +1674,8 @@
     transition-timing-function: var(--ease-out);
   }
 
-  .\[app-\:\10 r\] {
-    app-:  r;
-  }
-
-  .\[key\:3\1b \14 \] {
-    key: 3  ;
-  }
-
-  .\[key\:C\1a \14 \] {
-    key: C  ;
-  }
-
   .\[key\:W�4ng\] {
     key: W�4ng;
-  }
-
-  .\[key\:h\1a \14 \] {
-    key: h  ;
   }
 
   .\[key\:�\3 4ng\] {
@@ -1705,12 +1690,20 @@
     metatype: � r;
   }
 
+  .\[name\:\1 \1d �ng\] {
+    name:   �ng;
+  }
+
   .\[name\:\e \6 �\] {
     name:   �;
   }
 
   .\[name\:\12 \6 �\] {
     name:   �;
+  }
+
+  .\[name\:�\f �ng\] {
+    name: � �ng;
   }
 
   @media (hover: hover) {
@@ -1859,6 +1852,12 @@
   @media (min-width: 48rem) {
     .md\:flex-row {
       flex-direction: row;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:p-1 {
+      padding: calc(var(--spacing) * 1);
     }
   }
 
