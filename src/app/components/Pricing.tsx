@@ -46,6 +46,23 @@ export default function Pricing() {
           <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 1 week delivery
           </div>
+          
+          <div className="space-y-2">
+            <a 
+              href="#contact"
+              className="block text-center bg-white/10 text-white py-3 rounded-lg hover:bg-white/20 transition-colors text-sm font-semibold"
+            >
+              Email me
+            </a>
+            <a 
+              href="https://calendly.com/hersonhernandez/15-minute-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center border border-white/20 text-slate-400 py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
+            >
+              Book a call
+            </a>
+          </div>
         </div>
 
         {/* Essential */}
@@ -65,7 +82,7 @@ export default function Pricing() {
           <ul className="space-y-3 mb-6 text-sm">
             <li className="flex items-start gap-3 text-slate-300">
               <span className="text-cyan-400 mt-0.5">✓</span>
-              <span><strong>Up to 5 pages</strong></span>
+              <span><strong>Up to 5 pages </strong>(Home, About, Services, etc.)</span>
             </li>
             <li className="flex items-start gap-3 text-slate-300">
               <span className="text-cyan-400 mt-0.5">✓</span>
@@ -83,6 +100,23 @@ export default function Pricing() {
           
           <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 2 revision rounds
+          </div>
+          
+          <div className="space-y-2">
+            <a 
+              href="#contact"
+              className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
+            >
+              Email me
+            </a>
+            <a 
+              href="https://calendly.com/hersonhernandez/15-minute-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center border border-white/20 text-white py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
+            >
+              Book a call
+            </a>
           </div>
         </div>
 
@@ -104,6 +138,10 @@ export default function Pricing() {
             </li>
             <li className="flex items-start gap-3 text-slate-300">
               <span className="text-cyan-400 mt-0.5">✓</span>
+              <span><strong>Everything in Essential</strong></span>
+            </li>
+            <li className="flex items-start gap-3 text-slate-300">
+              <span className="text-cyan-400 mt-0.5">✓</span>
               <span>Booking/appointment system</span>
             </li>
             <li className="flex items-start gap-3 text-slate-300">
@@ -119,8 +157,33 @@ export default function Pricing() {
           <div className="text-xs text-slate-500 mb-6 text-center border-t border-white/10 pt-4">
             50% to start, 50% when live • 3-4 weeks delivery
           </div>
+          
+          <div className="space-y-2">
+            <a 
+              href="#contact"
+              className="block text-center bg-white/10 text-white py-3 rounded-lg hover:bg-white/20 transition-colors text-sm font-semibold"
+            >
+              Email me
+            </a>
+            <a 
+              href="https://calendly.com/hersonhernandez/15-minute-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center border border-white/20 text-slate-400 py-3 rounded-lg hover:bg-white/5 transition-colors text-sm font-semibold"
+            >
+              Book a call
+            </a>
+          </div>
         </div>
 
+      </div>
+      
+      {/* Comparison hint */}
+      <div className="mt-8 text-center">
+        <p className="text-sm text-slate-500">
+          <span className="text-cyan-400">Why $600 instead of $500?</span> Because even my "basic" package is hand-coded from scratch. 
+          No templates, no bloated plugins, no monthly fees. You own the code.
+        </p>
       </div>
     </section>
   );

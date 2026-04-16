@@ -1,6 +1,53 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitting(true);
+    
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    
+    await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData as any).toString(),
+    });
+    
+    setSubmitting(false);
+    setSubmitted(true);
+  };
+
+  if (submitted) {
+    return (
+      <section id="contact" className="relative z-10 px-6 py-20 max-w-2xl mx-auto">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 text-center">
+          <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-500/20 border border-green-500/50 flex items-center justify-center">
+            <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h2 className="text-2xl font-bold text-white mb-4">Message sent!</h2>
+          <p className="text-slate-400 mb-8">
+            Thanks for reaching out. I'll review your project details and get back to you within 24 hours.
+          </p>
+          <button 
+            onClick={() => setSubmitted(false)}
+            className="inline-flex items-center justify-center gap-2 bg-cyan-500 text-black px-8 py-4 rounded-lg font-semibold hover:bg-cyan-400 transition-colors"
+          >
+            Send another message
+          </button>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section id="contact" className="relative z-10 px-6 py-20 max-w-2xl mx-auto">
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12">
@@ -12,7 +59,7 @@ export default function Contact() {
           method="POST" 
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          action="/success"
+          onSubmit={handleSubmit}
           className="space-y-6"
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -79,9 +126,10 @@ export default function Contact() {
           
           <button 
             type="submit" 
-            className="w-full bg-cyan-500 text-black font-semibold py-4 rounded-lg hover:bg-cyan-400 transition-colors"
+            disabled={submitting}
+            className="w-full bg-cyan-500 text-black font-semibold py-4 rounded-lg hover:bg-cyan-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Send Message
+            {submitting ? "Sending..." : "Send Message"}
           </button>
         </form>
       </div>
