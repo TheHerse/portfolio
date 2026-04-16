@@ -180,7 +180,7 @@ export default function Pricing() {
       
       {/* Comparison hint */}
       <div className="mt-8 text-center">
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-slate-400">
           <span className="text-cyan-400">Why $600 instead of $500?</span> Because even my "basic" package is hand-coded from scratch. 
           No templates, no bloated plugins, no monthly fees. You own the code.
         </p>
