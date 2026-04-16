@@ -49,7 +49,7 @@ export default function Pricing() {
           
           <div className="space-y-2">
             <a 
-              href="#contact"
+              href="/contact"
               className="block text-center bg-white/10 text-white py-3 rounded-lg hover:bg-white/20 transition-colors text-sm font-semibold"
             >
               Email me
@@ -104,7 +104,7 @@ export default function Pricing() {
           
           <div className="space-y-2">
             <a 
-              href="#contact"
+              href="/contact"
               className="block text-center bg-cyan-500 text-black py-3 rounded-lg hover:bg-cyan-400 transition-colors text-sm font-semibold"
             >
               Email me
@@ -160,7 +160,7 @@ export default function Pricing() {
           
           <div className="space-y-2">
             <a 
-              href="#contact"
+              href="/contact"
               className="block text-center bg-white/10 text-white py-3 rounded-lg hover:bg-white/20 transition-colors text-sm font-semibold"
             >
               Email me
