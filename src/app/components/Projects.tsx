@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="flex-1 h-px bg-white/10" />
       </div>
       
-      <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         
         {/* Hydro Havens */}
         <Link 
@@ -23,7 +23,7 @@ export default function Projects() {
               src="/hydro-havens.webp" 
               alt="Hydro Havens Pools and Spas website" 
               fill
-              sizes="(max-width: 768px) 100vw, 33vw"
+              sizes="(max-width: 768px) 100vw, 25vw"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
@@ -102,6 +102,38 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+        {/* SW Service TX */}
+        <Link 
+          href="https://swservicetx.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="group bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300 block"
+        >
+          <div className="h-48 relative overflow-hidden bg-slate-900">
+            <Image 
+              src="/sw-service.webp" 
+              alt="SW Service TX website" 
+              fill
+              sizes="(max-width: 768px) 100vw, 25vw"
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
+          </div>
+          <div className="p-6">
+            <h3 className="text-lg font-semibold text-white mb-2">SW Service</h3>
+            <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+              Power transformer inspection, maintenance, and repair services. Mobile-first, fast loads.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['HTML/CSS', 'Responsive', 'Netlify'].map(tag => (
+                <span key={tag} className="text-xs text-cyan-400 bg-cyan-400/10 px-2 py-1 rounded">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </Link>
 
       </div>
     </section>
